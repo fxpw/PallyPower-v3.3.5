@@ -128,10 +128,11 @@ PallyPower.BlessingIcons = {
 	
 PallyPower.NormalBlessingIcons = {
     [-1] = "",
-	[1] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
-	[2] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
-	[3] = "Interface\\Icons\\Spell_Magic_MageArmor",
-	[4] = "Interface\\Icons\\Spell_Nature_LightningShield"};
+	[1] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofWisdom",
+	[2] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofKings",
+	[3] = "Interface\\Icons\\Spell_Magic_GreaterBlessingofKings",
+	[4] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofSalvation",
+	[5] = "Interface\\Icons\\Spell_Holy_GreaterBlessingofSanctuary"};
 
 PallyPower.AuraIcons = {
     [-1] = "",
@@ -170,7 +171,8 @@ PallyPower.GSpells = {
 	[1] = GetSpellInfo(25894), --BS["Greater Blessing of Wisdom"],
 	[2] = GetSpellInfo(25782), --BS["Greater Blessing of Might"],
 	[3] = GetSpellInfo(25898), --BS["Greater Blessing of Kings"],
-	[4] = GetSpellInfo(25899), --BS["Greater Blessing of Sanctuary"],
+	[4] = GetSpellInfo(25895), --BS["Greater Blessing of Salvation"],
+	[5] = GetSpellInfo(25899), --BS["Greater Blessing of Sanctuary"],
 };
 
 PallyPower.RFSpell = GetSpellInfo(25780) --BS["Righteous Fury"]
